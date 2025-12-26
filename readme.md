@@ -67,17 +67,17 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/discussion?sort=hotn
 The dataset includes multiple related CSV files that provide a comprehensive view of e‑commerce transactions, customer and seller information, and purchased items. Key tables used in this project include:
 
 - olist_orders_dataset.csv – Order records with status and timestamp fields for purchase, approval, estimated delivery, and actual delivery.
-- - Used to compute delay_days (difference between delivered and estimated delivery dates).
-- - Filtered to only include delivered orders. 
+  - Used to compute delay_days (difference between delivered and estimated delivery dates).
+  - Filtered to only include delivered orders. 
 
 - olist_order_items_dataset.csv – Items within each order, including seller_id, price, and freight_value.
-- - Aggregated per order to compute total order price, freight value, and number of items. 
+  - Aggregated per order to compute total order price, freight value, and number of items. 
 
 - olist_customers_dataset.csv – Customer identifiers and location (customer_state, customer_city).
-- - Merged to associate customer location with each order. 
+  - Merged to associate customer location with each order. 
 
 - olist_sellers_dataset.csv – Seller identifiers and location (seller_state, seller_city).
-- - Merged to associate seller location with each order.
+  - Merged to associate seller location with each order.
 
 # Results
 
